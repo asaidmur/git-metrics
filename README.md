@@ -8,6 +8,11 @@ further improvements to be considered:
 - integration with CI/CD platform
 
 
+## Authentication
+
+Need to ensure correct Github Personal Access Token is available to use in API calls
+https://docs.github.com/en/graphql/guides/forming-calls-with-graphql#authenticating-with-a-personal-access-token
+
 ## Installation
 
 TBD
