@@ -1,6 +1,6 @@
 # Git Metrics
 
-Git Metrics is a Python application that gathers metrics via Github's GraphQL API, organizing it into usable data and outputs as a csv file. 
+Git Metrics is a Kotlin SpringBoot application that gathers metrics via Github's GraphQL API, organizing it into usable data and outputs as a csv file. 
 
 further improvements to be considered: 
 - integration with AWS Lambda
@@ -20,7 +20,7 @@ TBD
 
 ## Usage
 
-TBD
+./gradlew bootRun
 ## Contributing
 
 TBD

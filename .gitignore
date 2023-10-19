@@ -25,3 +25,9 @@ replay_pid*
 
 # DS Store
 .DS_Store
+
+# miscellaneous
+.gradle/
+.idea/
+.vscode/
+build/
