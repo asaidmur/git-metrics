@@ -19,8 +19,11 @@ https://docs.github.com/en/graphql/guides/forming-calls-with-graphql#authenticat
 
 ## Usage
 http://localhost:8080/all?owner={repo-owner}&repo={repo-name}
+
 http://localhost:8080/open?owner={repo-owner}&repo={repo-name}
+
 http://localhost:8080/closed?owner={repo-owner}&repo={repo-name}
+
 http://localhost:8080/merged?owner={repo-owner}&repo={repo-name}
 
 so for example, if you want to see information on merged pull requests:
