@@ -1,3 +1,0 @@
-{
-  "query": "{ repository(owner: \"asaidmur\", name: \"git-metrics\") { pullRequests(last: 100, states: CLOSED) { totalCount nodes { title createdAt closedAt mergedAt } } } }"
-}
