@@ -14,8 +14,10 @@ Need to ensure correct Github Personal Access Token is available to use in API c
 https://docs.github.com/en/graphql/guides/forming-calls-with-graphql#authenticating-with-a-personal-access-token
 
 ## Installation
-
-./gradlew bootRun
+As the token is passed in as an environment variable, you need to run: 
+```
+GITHUB_TOKEN=your_token_here ./gradlew bootRun
+```
 
 ## Usage
 http://localhost:8080/all?owner={repo-owner}&repo={repo-name}
