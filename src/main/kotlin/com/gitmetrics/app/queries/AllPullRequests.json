@@ -1,0 +1,3 @@
+{
+  "query": "{ repository(owner: \"%s\", name: \"%s\") { pullRequests(last: 100) { totalCount nodes { title state createdAt closedAt mergedAt commits { totalCount }} } } }"
+}
