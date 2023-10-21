@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 # build jar files
-RUN ./gradlew assemble --no-daemon
+RUN ./gradlew assemble
 
 
 # Start a new stage to create the final image
